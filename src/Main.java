@@ -12,10 +12,12 @@ public class Main {
         int shrek = rand.nextInt(10);
     while (true) {
         shrek = rand.nextInt(10);
-        if (shrek <= 5)
+        if (shrek <= 3)
             System.out.println("correct");
-        else
+        else if (shrek <= 8)
             System.out.println("ur fattest gay");
+        else
+            System.out.println("wassup my dankey");
     }
     }
 }
