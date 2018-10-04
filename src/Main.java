@@ -13,7 +13,7 @@ public class Main {
     while (true) {
         shrek = rand.nextInt(10);
         if (shrek <= 3)
-            System.out.println("correct");
+            System.out.println("ight lets go save the princess");
         else if (shrek <= 8)
             System.out.println("ur fattest gay");
         else
